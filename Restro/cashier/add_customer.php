@@ -3,8 +3,8 @@ session_start();
 include('config/config.php');
 include('config/checklogin.php');
 include('config/code-generator.php');
-
 check_login();
+
 //Add Customer
 if (isset($_POST['addCustomer'])) {
   //Prevent Posting Blank Values

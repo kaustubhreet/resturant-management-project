@@ -5,6 +5,7 @@ include('config/checklogin.php');
 include('config/code-generator.php');
 
 check_login();
+
 if (isset($_POST['addProduct'])) {
 	//- for more projects
   //Prevent Posting Blank Values
